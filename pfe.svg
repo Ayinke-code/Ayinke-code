@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="262" viewBox="0 0 840 262" role="img" aria-label="Bon du 1er coup">
+<style>
+.c{animation:in .8s ease-out both}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.chip{opacity:0;animation:fade .5s ease-out forwards}
+@keyframes fade{to{opacity:1}}
+.bar{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.6s cubic-bezier(.2,.8,.2,1) .6s forwards}
+@keyframes grow{to{transform:scaleX(1)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:p 1.8s ease-out infinite}
+@keyframes p{0%{transform:scale(1);opacity:.7}100%{transform:scale(3);opacity:0}}
+.shine{animation:sh 4s ease-in-out infinite}
+@keyframes sh{0%{transform:translateX(-200px)}60%,100%{transform:translateX(1040px)}}
+.num{opacity:0;animation:fade .6s ease-out 1.4s forwards}
+</style>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#4F8EF7"/><stop offset="1" stop-color="#4F8EF7" stop-opacity=".25"/></linearGradient><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#4F8EF7" stop-opacity=".22"/><stop offset="1" stop-color="#4F8EF7" stop-opacity="0"/></radialGradient><clipPath id="r"><rect width="840" height="262" rx="16"/></clipPath></defs>
+<g class="c" clip-path="url(#r)">
+<rect width="840" height="262" fill="#0D1526"/>
+<rect width="840" height="262" fill="url(#glow)"/>
+<rect width="840" height="4" fill="url(#g)"/><rect class="shine" x="0" y="0" width="120" height="4" fill="url(#sh)"/>
+<rect x=".5" y=".5" width="839" height="261" rx="15.5" fill="none" stroke="#24385E"/>
+<text x="24" y="36" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#4F8EF7">PROJET DE FIN D'ÉTUDES · ENTREPRISE PARTENAIRE</text>
+<rect x="726" y="21" width="90" height="22" rx="11" fill="#4F8EF7" fill-opacity=".12" stroke="#4F8EF7" stroke-opacity=".5"/>
+<circle class="pulse" cx="739" cy="32" r="4" fill="#4F8EF7"/><circle cx="739" cy="32" r="4" fill="#4F8EF7"/>
+<text x="750" y="37" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4F8EF7">En cours</text>
+<text x="24" y="68" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#F2F6FC">Bon du 1er coup</text>
+<text x="24" y="90" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#8FA3C4">Équipe de 3 · Scrum · sept. 2026 – aujourd'hui</text>
+<text x="24" y="116" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14.5" fill="#D3DCEB">Application mobile et tableau de bord web pour déclarer et suivre les défauts de production.</text>
+<text x="24" y="137" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14.5" fill="#D3DCEB">Mon rôle : base de données, API REST Spring Boot, authentification mobile, statistiques web.</text>
+<g class="chip" style="animation-delay:0.30s"><rect x="24" y="150" width="51" height="24" rx="12" fill="#14213D" stroke="#2E4A7A"/><text x="49.5" y="166" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#C9D6EC">Java</text></g>
+<g class="chip" style="animation-delay:0.42s"><rect x="83" y="150" width="103" height="24" rx="12" fill="#14213D" stroke="#2E4A7A"/><text x="134.5" y="166" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#C9D6EC">Spring Boot</text></g>
+<g class="chip" style="animation-delay:0.54s"><rect x="194" y="150" width="66" height="24" rx="12" fill="#14213D" stroke="#2E4A7A"/><text x="227.0" y="166" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#C9D6EC">Kotlin</text></g>
+<g class="chip" style="animation-delay:0.66s"><rect x="268" y="150" width="59" height="24" rx="12" fill="#14213D" stroke="#2E4A7A"/><text x="297.5" y="166" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#C9D6EC">React</text></g>
+<g class="chip" style="animation-delay:0.78s"><rect x="335" y="150" width="96" height="24" rx="12" fill="#14213D" stroke="#2E4A7A"/><text x="383.0" y="166" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#C9D6EC">PostgreSQL</text></g>
+<g class="chip" style="animation-delay:0.90s"><rect x="439" y="150" width="110" height="24" rx="12" fill="#14213D" stroke="#2E4A7A"/><text x="494.0" y="166" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#C9D6EC">GitLab CI/CD</text></g>
+<g class="chip" style="animation-delay:1.02s"><rect x="557" y="150" width="88" height="24" rx="12" fill="#14213D" stroke="#2E4A7A"/><text x="601.0" y="166" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#C9D6EC">SonarQube</text></g>
+<text x="24" y="196" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" fill="#8FA3C4">Couverture de tests</text>
+<text class="num" x="816" y="196" text-anchor="end" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#4F8EF7">80 %+</text>
+<rect x="24" y="206" width="792" height="8" rx="4" fill="#1B2A48"/>
+<rect class="bar" x="24" y="206" width="633.6" height="8" rx="4" fill="url(#g)"/>
+</g></svg>
