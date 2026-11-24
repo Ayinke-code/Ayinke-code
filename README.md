@@ -37,53 +37,67 @@ Qualité et DevOps
 
 <img src="https://skillicons.dev/icons?i=docker,gitlab,github,git,linux,figma&theme=dark" alt="Docker, GitLab, GitHub, Git, Linux, Figma" /> </div>
 🚀 Mes projets
-🏭 Bon du 1er coup – Projet de fin d'études (en cours)
-
-Application mobile et web de suivi des défauts de production, pour une entreprise partenaire. Équipe de 3, méthode Scrum.
-
+<div align="center"> <img src="pfe.svg" width="100%" alt="Bon du 1er coup – projet de fin d'études" /> <table> <tr> <td width="50%"><img src="tiky.svg" width="100%" alt="Tiky – plateforme de gestion de tickets" /></td> <td width="50%"><a href="https://github.com/Ayinke-code/carenage"><img src="carenage.svg" width="100%" alt="Carénage – plateforme de réservation" /></a></td> </tr> <tr> <td width="50%"><img src="api-rh.svg" width="100%" alt="API RH sécurisée" /></td> <td width="50%"><img src="budgetmate.svg" width="100%" alt="BudgetMate – application Android" /></td> </tr> </table> </div>
+🔍 Explorer les projets
+<details> <summary><b>🏭 Bon du 1er coup</b> – architecture et mon rôle</summary> <br/>
 tests + qualité
 📱 Appli mobileKotlin
 ⚙️ API RESTJava · Spring Boot
-📊 Tableau de bord webReact
+📊 Tableau de bordReact
 🗄️ PostgreSQL
 🔁 GitLab CI/CD
-✅ SonarQube80 % + de couverture
-
-Mon rôle : initialisation de la base de données, API REST Spring Boot, authentification mobile, tableau de bord web (statistiques).
-
-🎫 Tiky – Plateforme web de gestion de tickets
-
-Application full stack réalisée en équipe de 6, en Scrum (plus de 60 user stories).
-
+✅ SonarQube
+Ce que j'ai fait	Détail
+🗄️ Base de données	Initialisation et modélisation PostgreSQL
+⚙️ API REST	Développement en Java / Spring Boot, utilisée par le mobile et le web
+🔐 Authentification	Côté application mobile (Kotlin)
+📊 Statistiques	Tableau de bord web React (en cours)
+</details> <details> <summary><b>🎫 Tiky</b> – architecture et mon rôle</summary> <br/>
 JWT
+build · tests
 👤 Utilisateur
-🖥️ FrontNuxt 4 · Vue 3
-⚙️ API RESTSpring Boot 3 · SpringSecurity
+🖥️ Nuxt 4 · Vue 3
+⚙️ Spring Boot 3Spring Security
 🗄️ MariaDB22 entités
-<p> <img src="https://img.shields.io/badge/Couverture%20de%20tests-91,5%25-2EA043?style=flat-square" alt="91,5 % de couverture de tests" /> <img src="https://img.shields.io/badge/CI%2FCD-GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab CI/CD" /> <img src="https://img.shields.io/badge/Qualité-SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white" alt="SonarQube" /> </p>
+🔁 GitLab CI/CD
+✅ SonarQube91,5 %
+Ce que j'ai fait	Détail
+🗄️ Référente base de données	Modèle Merise de 22 entités sous MariaDB
+⚙️ API REST	Spring Boot 3 et JPA/Hibernate
+🔐 Sécurité	Spring Security et JWT
+🧪 Tests	JUnit et Mockito
+</details> <details> <summary><b>⚓ Carénage</b> – les trois parcours utilisateurs</summary> <br/>
+recherche un créneauet envoie une demande
+accepte
+refuse
+gère
+gère
+🚢 Propriétaire de navire
+📅 Demande de réservation
+🏗️ Chantier naval
+✅ Créneau réservé
+❌ Demande refusée
+🛡️ Administrateur
 
-Mon rôle : référente base de données (modèle Merise), API REST, sécurité JWT, tests JUnit et Mockito.
+Next.js · TypeScript · Prisma · PostgreSQL — 👉 voir le code
 
-⚓ Plateforme de réservation de créneaux de carénage
+</details> <details> <summary><b>🔐 API RH sécurisée</b> – qui a le droit de faire quoi ?</summary> <br/>
+Rôle	Lire	Modifier
+👤 Employé	Les employés de son département	Ses propres données (hors salaire et poste)
+🧑‍💼 Manager	Tous les employés	Le salaire et le poste de son département
+🛡️ Administrateur	Tout	Tout
 
-Prototype full stack réalisé en temps limité : trois types d'utilisateurs (propriétaire de navire, chantier naval, administrateur).
+Pagination sur plus de 300 000 employés · appel à l'API météo Open-Meteo · documentation Swagger.
 
-Next.js TypeScript Prisma PostgreSQL
-
-👉 Voir le code
-
-💰 BudgetMate – Application Android de gestion de budget (en cours)
-
-Application mobile qui aide les étudiants à suivre leur budget mensuel, développée en binôme.
-
-Kotlin Jetpack Compose Room Hilt Firebase
-
-🔐 API REST sécurisée de gestion RH
-
-API Spring Boot sur une base de plus de 300 000 employés : CRUD paginé, trois rôles avec droits par département, appel d'une API météo publique, documentation OpenAPI.
-
-Java 21 Spring Boot 3 Spring Security Spring Data JPA PostgreSQL Swagger
-
+</details> <details> <summary><b>💰 BudgetMate</b> – où en est le projet ?</summary> <br/>
+[x] Cahier des charges
+[x] Maquettes Figma
+[x] Intégration des écrans en Jetpack Compose
+[x] Authentification Firebase
+[ ] Écrans restants et navigation
+[ ] Connexion aux données (Room)
+[ ] Graphiques et alertes de budget
+</details>
 <div align="center">
 📫 Un stage à me proposer ?
 
